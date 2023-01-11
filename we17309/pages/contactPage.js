@@ -1,3 +1,4 @@
-const contactPage = () => 'Contact Page';
+import header from "../conmponents/header";
+const contactPage = () => `${header()}`;
 
 export default contactPage
