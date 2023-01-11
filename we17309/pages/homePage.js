@@ -1,5 +1,4 @@
 //export nhiều biến
-const homePage = () => "homepage";
-const a = 10;
-export { homePage };
+import header from '../conmponents/Header'
+const homePage = () => `${header()}`;
 export default homePage;
